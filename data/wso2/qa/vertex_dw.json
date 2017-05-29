@@ -1,0 +1,64 @@
+{
+	"swaggerJson": {
+		"swagger": "2.0",
+		"info": {
+			"title": "qa_vertex_dw",
+			"version": "1.0",
+			"description": "qa_vertex_dw"
+		},
+		"x-api-mgr-params": {
+			"visibility": "public",
+			"roles": [
+				"sdlc",
+				"aws"
+			],
+			"thumbUrl": "",
+			"endpointType": "testEndpointType",
+			"wsdl": "testWsdl",
+			"tier": "Unlimited",
+			"tiersCollection": [
+				"Unlimited"
+			],
+			"httpChecked": true,
+			"httpsChecked": true,
+			"subscriptions": "testSubscriptions",
+			"tenants": ["testTenants"],
+			"endpoints": {
+				"production": "http://internal-ec-qa-vertex1-app-elb-1964888938.us-east-1.elb.amazonaws.com/vertex-ws/services",
+				"sandbox": ""
+			}
+		},
+		"basePath": "/qa/vertex",
+	"paths": {
+		"/CalculateTax60":{
+			"post":{
+				"x-api-mgr-params":{
+					"authType":"Application",
+					"throttlingTier":"Unlimited",
+					"visibility": "public"
+				},
+				"parameters":[
+					{
+						"name":"body",
+						"in":"body",
+						"description":"Request Body",
+						"required":"true",
+						"schema":{
+							"type":"string"
+						}
+					}
+				],
+				"responses":{
+					"200" : {
+						"description": "success"
+					},
+					"default":{
+						"description": "?????"
+					}
+				}
+			}
+		}
+	
+	}
+}
+}

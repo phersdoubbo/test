@@ -1,0 +1,26 @@
+spring:
+  application:
+    name: sch-wso
+  http.multipart:
+    max-file-size: 128000KB
+    max-request-size: 128000KB
+
+server:
+  port: 8080
+  servlet-path: /sch-wso/system
+
+cxf:
+  path: /
+  servlet.init:
+    service-list-path: /info
+  jaxrs:
+    component-scan: true
+    classes-scan-packages: org.apache.cxf.jaxrs.swagger,org.apache.cxf.metrics,com.fasterxml.jackson.jaxrs.json
+
+endpoints:
+  jmx:
+    enabled: true
+    unique-names: true
+
+snapshot:
+  version: @snapshot.version@

@@ -1,0 +1,40 @@
+environment=ferprod
+SPS DB ...jdbc:mysql://sch-mysp004.cnquw6bklb67.us-east-1.rds.amazonaws.com:3306/cs001
+SPS AS400 ...schjc400.scholastic.net
+SPS INSERT_ON_TABLE...true
+SPS PCML...PROD
+SPS IS_DEFAULT_EMAIL...true
+SPS PATH...Z:/Downloads/
+SPS PATH_SOURCE.../C:/Users/Fernaull/FVU/ScriptsTest/bin2/./
+Scanning file: Z:/Downloads/2017-04-26-schl_arbf-PaymentBatchDetailReport.csv
+records found in BatchDetailfile= 90 - Wed Apr 26 00:00:00 EDT 2017
+records found in getTransactionDetailFile= 807 - Wed Apr 26 00:00:00 EDT 2017
+Records in reports=90
+Scanning file: Z:/Downloads/2017-04-27-schl_arbf-PaymentBatchDetailReport.csv
+records found in BatchDetailfile= 97 - Thu Apr 27 00:00:00 EDT 2017
+records found in getTransactionDetailFile= 865 - Thu Apr 27 00:00:00 EDT 2017
+Records in reports=97
+Scanning file: Z:/Downloads/2017-04-28-schl_arbf-PaymentBatchDetailReport.csv
+records found in BatchDetailfile= 139 - Fri Apr 28 00:00:00 EDT 2017
+records found in getTransactionDetailFile= 1283 - Fri Apr 28 00:00:00 EDT 2017
+Records in reports=139
+Scanning file: Z:/Downloads/2017-04-29-schl_arbf-PaymentBatchDetailReport.csv
+records found in BatchDetailfile= 42 - Sat Apr 29 00:00:00 EDT 2017
+records found in getTransactionDetailFile= 275 - Sat Apr 29 00:00:00 EDT 2017
+Records in reports=42
+Scanning file: Z:/Downloads/2017-04-30-schl_arbf-PaymentBatchDetailReport.csv
+records found in BatchDetailfile= 6 - Sun Apr 30 00:00:00 EDT 2017
+records found in getTransactionDetailFile= 410 - Sun Apr 30 00:00:00 EDT 2017
+Records in reports=6
+Scanning file: Z:/Downloads/2017-05-01-schl_arbf-PaymentBatchDetailReport.csv
+records found in BatchDetailfile= 108 - Mon May 01 00:00:00 EDT 2017
+records found in getTransactionDetailFile= 1360 - Mon May 01 00:00:00 EDT 2017
+Records in reports=108
+Scanning file: Z:/Downloads/2017-05-02-schl_arbf-PaymentBatchDetailReport.csv
+records found in BatchDetailfile= 0 - Tue May 02 00:00:00 EDT 2017
+records found in getTransactionDetailFile= 0 - Tue May 02 00:00:00 EDT 2017
+Records in reports=0
+*****You have 1 ms to cancel operation if you see something wrong******
+About to insert in sch-mysp004.cnquw6bklb67.us-east-1.rds.amazonaws.com:3306, 0 records, time to cancel =1
+About to send Transaction missing in DB2 email Fulloa@Scholastic.com
+Exiting

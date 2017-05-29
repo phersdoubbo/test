@@ -1,0 +1,28 @@
+version: '2'
+services:
+  app:
+    image: "${image_name}_dev"
+    environment:
+      - SCH_ENV=${SCH_ENV}
+      - SCH_KEY=${SCH_KEY}
+    build:
+      context: .
+      dockerfile: Dockerfile.dev
+    volumes:
+      # map source root dir to app root dir
+      - .:/opt/app
+      # map maven repo in order to cache maven dependencies
+      - ./.m2:/root/.m2
+    ports:
+      - "8080"
+
+  app-image:
+    image: "${image_name}"
+    environment:
+      - SCH_ENV=${SCH_ENV}
+      - SCH_KEY=${SCH_KEY}
+    build:
+      context: .
+      dockerfile: Dockerfile
+      args:
+        compiled_binary_path: "${compiled_binary_path}"

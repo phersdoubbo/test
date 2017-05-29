@@ -1,0 +1,17 @@
+
+dw_subscriptions
+				QA endpoint: http://aso-qa.apps.dev.scholastic.tech/subscriptions/
+				curl -v -X GET -H "Accept: */*" "http://aso-qa.apps.dev.scholastic.tech/subscriptions" --cookie "SPS_UD=123"
+        curl -v -X GET -H "Accept: */*" "http://nonprod.api.scholastic.com/qa/subscriptions/1.0/subscriptions" --cookie "SPS_UD=123"
+
+				QA endpoint: http://aso-qa.apps.dev.scholastic.tech/subscriptions/<sub_id>/<order_id>
+				curl -v -X GET -H "Accept: */*" "http://aso-qa.apps.dev.scholastic.tech/subscriptions/5005502/15108526" --cookie "SPS_UD=123"
+        curl -v -X GET -H "Accept: */*" "http://nonprod.api.scholastic.com/qa/subscriptions/1.0/subscriptions/5005502/15108526" --cookie "SPS_UD=123"
+
+				QA endpoint: http://aso-qa.apps.dev.scholastic.tech/subscriptions/<sub_key>
+				curl -v -X POST -H "Accept: */*" "http://aso-qa.apps.dev.scholastic.tech/subscriptions/M7LCPBY3R9CL" --cookie "SPS_UD=123"
+        curl -v -X POST -H "Accept: */*" "http://nonprod.api.scholastic.com/qa/subscriptions/1.0/subscriptions/M7LCPBY3R9CL" --cookie "SPS_UD=123"
+
+				Update Billing Status API: ENV_BASE_URL/subscriptions/updateStatus/{subId}
+        curl -v -X PUT -H "Accept: */*" "http://aso-qa.apps.dev.scholastic.tech/subscriptions/updateStatus/123" --cookie "SPS_UD=83756784"
+				curl -v -X PUT -H "Accept: */*" "http://nonprod.api.scholastic.com/qa/subscriptions/1.0/subscriptions/updateStatus/123" --cookie "SPS_UD=83756784"

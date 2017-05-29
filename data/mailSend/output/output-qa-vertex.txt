@@ -1,0 +1,128 @@
+<?xml version='1.0' encoding='UTF-8'?><S:Envelope xmlns:S="http://schemas.xmlsoap.org/soap/envelope/"><S:Body><VertexEnvelope xmlns="urn:vertexinc:o-series:tps:6:0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><Login><UserName>sysadmin</UserName>
+<Password>vertex</Password>
+</Login>
+<QuotationResponse documentDate="2016-12-09" transactionType="SALE"><Seller />
+<Customer><CustomerCode classCode="2002" />
+<Destination taxAreaId="50733020"><City>San Diego</City>
+<MainDivision>CA</MainDivision>
+<PostalCode>92106</PostalCode>
+<Country>USA</Country>
+</Destination>
+</Customer>
+<SubTotal>10.0</SubTotal>
+<Total>10.8</Total>
+<TotalTax>0.8</TotalTax>
+<LineItem lineItemId="8055074" lineItemNumber="1"><Product productClass="">SSO1234567678987</Product>
+<Quantity>1.0</Quantity>
+<Freight>1.0</Freight>
+<FairMarketValue>4.0</FairMarketValue>
+<UnitPrice>4.0</UnitPrice>
+<ExtendedPrice>4.0</ExtendedPrice>
+<Taxes taxResult="TAXABLE" taxType="SALES" situs="DESTINATION" taxCollectedFromParty="BUYER"><Jurisdiction jurisdictionLevel="STATE" jurisdictionId="2398">CALIFORNIA</Jurisdiction>
+<CalculatedTax>0.26</CalculatedTax>
+<EffectiveRate>0.065</EffectiveRate>
+<Taxable>4.0</Taxable>
+<Imposition impositionType="General Sales and Use Tax">Sales and Use Tax</Imposition>
+<TaxRuleId>465617</TaxRuleId>
+</Taxes>
+<Taxes taxResult="TAXABLE" taxType="SALES" situs="DESTINATION" taxCollectedFromParty="BUYER"><Jurisdiction jurisdictionLevel="COUNTY" jurisdictionId="3607">SAN DIEGO</Jurisdiction>
+<CalculatedTax>0.04</CalculatedTax>
+<EffectiveRate>0.01</EffectiveRate>
+<Taxable>4.0</Taxable>
+<Imposition impositionType="General Sales and Use Tax">Local Sales and Use Tax</Imposition>
+<TaxRuleId>42010</TaxRuleId>
+</Taxes>
+<Taxes taxResult="TAXABLE" taxType="SALES" situs="DESTINATION" taxCollectedFromParty="BUYER"><Jurisdiction jurisdictionLevel="DISTRICT" jurisdictionId="3608">REGIONAL TRANSPORTATION COMMISSION (SDCT)</Jurisdiction>
+<CalculatedTax>0.02</CalculatedTax>
+<EffectiveRate>0.005</EffectiveRate>
+<Taxable>4.0</Taxable>
+<Imposition impositionType="General Sales and Use Tax">Local Sales and Use Tax</Imposition>
+<TaxRuleId>3728</TaxRuleId>
+</Taxes>
+<TotalTax>0.4</TotalTax>
+<LineItem lineItemId="Vertex freight sub line item identifier" lineItemNumber="1"><Product productClass="">SSO1234567678987</Product>
+<Quantity>1.0</Quantity>
+<FairMarketValue>1.0</FairMarketValue>
+<ExtendedPrice>1.0</ExtendedPrice>
+<Taxes taxResult="TAXABLE" taxType="SALES" situs="DESTINATION" taxCollectedFromParty="BUYER"><Jurisdiction jurisdictionLevel="STATE" jurisdictionId="2398">CALIFORNIA</Jurisdiction>
+<CalculatedTax>0.06</CalculatedTax>
+<EffectiveRate>0.065</EffectiveRate>
+<Taxable>1.0</Taxable>
+<Imposition impositionType="General Sales and Use Tax">Sales and Use Tax</Imposition>
+<TaxRuleId>229628</TaxRuleId>
+</Taxes>
+<Taxes taxResult="TAXABLE" taxType="SALES" situs="DESTINATION" taxCollectedFromParty="BUYER"><Jurisdiction jurisdictionLevel="COUNTY" jurisdictionId="3607">SAN DIEGO</Jurisdiction>
+<CalculatedTax>0.01</CalculatedTax>
+<EffectiveRate>0.01</EffectiveRate>
+<Taxable>1.0</Taxable>
+<Imposition impositionType="General Sales and Use Tax">Local Sales and Use Tax</Imposition>
+<TaxRuleId>42010</TaxRuleId>
+</Taxes>
+<Taxes taxResult="TAXABLE" taxType="SALES" situs="DESTINATION" taxCollectedFromParty="BUYER"><Jurisdiction jurisdictionLevel="DISTRICT" jurisdictionId="3608">REGIONAL TRANSPORTATION COMMISSION (SDCT)</Jurisdiction>
+<CalculatedTax>0.01</CalculatedTax>
+<EffectiveRate>0.005</EffectiveRate>
+<Taxable>1.0</Taxable>
+<Imposition impositionType="General Sales and Use Tax">Local Sales and Use Tax</Imposition>
+<TaxRuleId>3728</TaxRuleId>
+</Taxes>
+<TotalTax>0.08</TotalTax>
+</LineItem>
+</LineItem>
+<LineItem lineItemId="8055074" lineItemNumber="2"><Product productClass="">SSO1234567678987</Product>
+<Quantity>1.0</Quantity>
+<Freight>1.0</Freight>
+<FairMarketValue>4.0</FairMarketValue>
+<UnitPrice>4.0</UnitPrice>
+<ExtendedPrice>4.0</ExtendedPrice>
+<Taxes taxResult="TAXABLE" taxType="SALES" situs="DESTINATION" taxCollectedFromParty="BUYER"><Jurisdiction jurisdictionLevel="STATE" jurisdictionId="2398">CALIFORNIA</Jurisdiction>
+<CalculatedTax>0.26</CalculatedTax>
+<EffectiveRate>0.065</EffectiveRate>
+<Taxable>4.0</Taxable>
+<Imposition impositionType="General Sales and Use Tax">Sales and Use Tax</Imposition>
+<TaxRuleId>465617</TaxRuleId>
+</Taxes>
+<Taxes taxResult="TAXABLE" taxType="SALES" situs="DESTINATION" taxCollectedFromParty="BUYER"><Jurisdiction jurisdictionLevel="COUNTY" jurisdictionId="3607">SAN DIEGO</Jurisdiction>
+<CalculatedTax>0.04</CalculatedTax>
+<EffectiveRate>0.01</EffectiveRate>
+<Taxable>4.0</Taxable>
+<Imposition impositionType="General Sales and Use Tax">Local Sales and Use Tax</Imposition>
+<TaxRuleId>42010</TaxRuleId>
+</Taxes>
+<Taxes taxResult="TAXABLE" taxType="SALES" situs="DESTINATION" taxCollectedFromParty="BUYER"><Jurisdiction jurisdictionLevel="DISTRICT" jurisdictionId="3608">REGIONAL TRANSPORTATION COMMISSION (SDCT)</Jurisdiction>
+<CalculatedTax>0.02</CalculatedTax>
+<EffectiveRate>0.005</EffectiveRate>
+<Taxable>4.0</Taxable>
+<Imposition impositionType="General Sales and Use Tax">Local Sales and Use Tax</Imposition>
+<TaxRuleId>3728</TaxRuleId>
+</Taxes>
+<TotalTax>0.4</TotalTax>
+<LineItem lineItemId="Vertex freight sub line item identifier" lineItemNumber="2"><Product productClass="">SSO1234567678987</Product>
+<Quantity>1.0</Quantity>
+<FairMarketValue>1.0</FairMarketValue>
+<ExtendedPrice>1.0</ExtendedPrice>
+<Taxes taxResult="TAXABLE" taxType="SALES" situs="DESTINATION" taxCollectedFromParty="BUYER"><Jurisdiction jurisdictionLevel="STATE" jurisdictionId="2398">CALIFORNIA</Jurisdiction>
+<CalculatedTax>0.07</CalculatedTax>
+<EffectiveRate>0.065</EffectiveRate>
+<Taxable>1.0</Taxable>
+<Imposition impositionType="General Sales and Use Tax">Sales and Use Tax</Imposition>
+<TaxRuleId>229628</TaxRuleId>
+</Taxes>
+<Taxes taxResult="TAXABLE" taxType="SALES" situs="DESTINATION" taxCollectedFromParty="BUYER"><Jurisdiction jurisdictionLevel="COUNTY" jurisdictionId="3607">SAN DIEGO</Jurisdiction>
+<CalculatedTax>0.01</CalculatedTax>
+<EffectiveRate>0.01</EffectiveRate>
+<Taxable>1.0</Taxable>
+<Imposition impositionType="General Sales and Use Tax">Local Sales and Use Tax</Imposition>
+<TaxRuleId>42010</TaxRuleId>
+</Taxes>
+<Taxes taxResult="TAXABLE" taxType="SALES" situs="DESTINATION" taxCollectedFromParty="BUYER"><Jurisdiction jurisdictionLevel="DISTRICT" jurisdictionId="3608">REGIONAL TRANSPORTATION COMMISSION (SDCT)</Jurisdiction>
+<CalculatedTax>0.0</CalculatedTax>
+<EffectiveRate>0.0</EffectiveRate>
+<Taxable>1.0</Taxable>
+<Imposition impositionType="General Sales and Use Tax">Local Sales and Use Tax</Imposition>
+<TaxRuleId>3728</TaxRuleId>
+</Taxes>
+<TotalTax>0.08</TotalTax>
+</LineItem>
+</LineItem>
+</QuotationResponse>
+</VertexEnvelope></S:Body></S:Envelope>

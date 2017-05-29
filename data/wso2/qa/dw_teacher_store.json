@@ -1,0 +1,64 @@
+{
+	"swaggerJson": {
+		"swagger": "2.0",
+		"info": {
+			"title": "qa_teacher_store",
+			"version": "1.0",
+			"description": "qa_teacher_store"
+		},
+		"x-api-mgr-params": {
+			"visibility": "public",
+			"roles": [
+				"sdlc",
+				"aws"
+			],
+			"thumbUrl": "",
+			"endpointType": "testEndpointType",
+			"wsdl": "testWsdl",
+			"tier": "Unlimited",
+			"tiersCollection": [
+				"Unlimited"
+			],
+			"httpChecked": false,
+			"httpsChecked": true,
+			"subscriptions": "testSubscriptions",
+			"tenants": ["testTenants"],
+			"endpoints": {
+				"production": "http://aso-dev.apps.dev.scholastic.tech/OOSv2/",
+				"sandbox": ""
+			}
+		},
+		"basePath": "/qa/teacher/store",
+	"paths": {
+
+		"/digital*":{
+			"get":{
+				"x-api-mgr-params":{
+					"authType":"None",
+					"throttlingTier":"Unlimited",
+					"visibility": "public"
+				},
+				"parameters":[
+					{
+						"name":"body",
+						"in":"body",
+						"description":"Request Body",
+						"required":"true",
+						"schema":{
+							"type":"string"
+						}
+					}
+				],
+				"responses":{
+					"200" : {
+						"description": "success"
+					},
+					"default":{
+						"description": "?????"
+					}
+				}
+			}
+		}
+	}
+}
+}

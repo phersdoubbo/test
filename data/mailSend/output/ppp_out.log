@@ -1,0 +1,10 @@
+formatDateTime : 20170503
+downloaded =20170503061122_TEACHER.csv
+Finished processing Teacher 20170503061122_TEACHER.csv
+downloaded =20170503061435_SCHOOL.csv
+update  school set status="N" where account_number="11155";
+update  school set status="N" where account_number="2923341";
+Finished processing School 20170503061435_SCHOOL.csv
+downloaded =20170503062335_SCHOOLTEACHER.csv
+Finished processing 20170503062335_SCHOOLTEACHER.csv
+downloading down

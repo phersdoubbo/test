@@ -1,0 +1,91 @@
+{
+	"swaggerJson": {
+		"swagger": "2.0",
+		"info": {
+			"title": "perf_digital_download",
+			"version": "1.0",
+			"description": "perf_digital_download"
+		},
+		"x-api-mgr-params": {
+			"visibility": "public",
+			"roles": [
+				"sdlc",
+				"aws"
+			],
+			"thumbUrl": "",
+			"endpointType": "testEndpointType",
+			"wsdl": "testWsdl",
+			"tier": "Unlimited",
+			"tiersCollection": [
+				"Unlimited"
+			],
+			"httpChecked": true,
+			"httpsChecked": true,
+			"subscriptions": "testSubscriptions",
+			"tenants": ["testTenants"],
+			"endpoints": {
+				"production": "http://aso-qa.apps.dev.scholastic.tech",
+				"sandbox": ""
+			}
+		},
+		"basePath": "/perf/digital",
+	"paths": {
+		"/TSODigitalDownload":{
+			"post":{
+				"x-api-mgr-params":{
+					"authType":"None",
+					"throttlingTier":"Unlimited",
+					"visibility": "public"
+				},
+				"parameters":[
+					{
+						"name":"body",
+						"in":"body",
+						"description":"Request Body",
+						"required":"true",
+						"schema":{
+							"type":"string"
+						}
+					}
+				],
+				"responses":{
+					"200" : {
+						"description": "success"
+					},
+					"default":{
+						"description": "?????"
+					}
+				}
+			}
+		},"/TSODigitalDownload*":{
+			"get":{
+				"x-api-mgr-params":{
+					"authType":"None",
+					"throttlingTier":"Unlimited",
+					"visibility": "public"
+				},
+				"parameters":[
+					{
+						"name":"body",
+						"in":"body",
+						"description":"Request Body",
+						"required":"true",
+						"schema":{
+							"type":"string"
+						}
+					}
+				],
+				"responses":{
+					"200" : {
+						"description": "success"
+					},
+					"default":{
+						"description": "?????"
+					}
+				}
+			}
+		}
+	
+	}
+}
+}

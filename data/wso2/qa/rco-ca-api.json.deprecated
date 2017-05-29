@@ -1,0 +1,591 @@
+{
+	"swaggerJson": {
+		"swagger": "2.0",
+		"info": {
+			"title": "qa-rco-ca-api",
+			"version": "1.0",
+			"description": "qa-rco-ca-api"
+		},
+		"x-api-mgr-params": {
+			"visibility": "public",
+			"roles": [
+				"sdlc",
+				"aws"
+			],
+			"thumbUrl": "",
+			"endpointType": "testEndpointType",
+			"wsdl": "testWsdl",
+			"tier": "Unlimited",
+			"tiersCollection": [
+				"Unlimited"
+			],
+			"httpChecked": true,
+			"httpsChecked": true,
+			"subscriptions": "testSubscriptions",
+			"tenants": ["testTenants"],
+			"endpoints": {
+				"production": "http://10.15.0.195:8888/qa/app/ca-svcs/user/1.0",
+				"sandbox": ""
+			}
+		},
+		"basePath": "/qa/app/ca-svcs/user",
+	"paths": {
+	"/{accountId}/dts_chart*":{
+			"get":{
+				"x-api-mgr-params":{
+					"authType":"Application",
+					"throttlingTier":"Unlimited",
+					"visibility": "public"
+				},
+				"parameters":[
+					{
+						"name":"body",
+						"in":"body",
+						"description":"Request Body",
+						"required":"true",
+						"schema":{
+							"type":"string"
+						}
+					}
+					{
+						"name":"accountId",
+						"description":"accountId",
+						"in":"query",
+						"required":"false",
+						"schema":{
+							"type":"string"
+						}
+					}
+				],
+				"responses":{
+					"200" : {
+						"description": "success"
+					},
+					"default":{
+						"description": "?????"
+					}
+				}
+			},
+		},
+	"/{accountId}/order_by_id*":{
+			"get":{
+				"x-api-mgr-params":{
+					"authType":"Application",
+					"throttlingTier":"Unlimited",
+					"visibility": "public"
+				},
+				"parameters":[
+					{
+						"name":"body",
+						"in":"body",
+						"description":"Request Body",
+						"required":"true",
+						"schema":{
+							"type":"string"
+						}
+					}
+					{
+						"name":"accountId",
+						"description":"accountId",
+						"in":"query",
+						"required":"false",
+						"schema":{
+							"type":"string"
+						}
+					}
+				],
+				"responses":{
+					"200" : {
+						"description": "success"
+					},
+					"default":{
+						"description": "?????"
+					}
+				}
+			},
+		},
+	"/{accountId}/coupon_code*":{
+			"get":{
+				"x-api-mgr-params":{
+					"authType":"Application",
+					"throttlingTier":"Unlimited",
+					"visibility": "public"
+				},
+				"parameters":[
+					{
+						"name":"body",
+						"in":"body",
+						"description":"Request Body",
+						"required":"true",
+						"schema":{
+							"type":"string"
+						}
+					}
+					{
+						"name":"accountId",
+						"description":"accountId",
+						"in":"query",
+						"required":"false",
+						"schema":{
+							"type":"string"
+						}
+					}
+				],
+				"responses":{
+					"200" : {
+						"description": "success"
+					},
+					"default":{
+						"description": "?????"
+					}
+				}
+			},
+		},
+	"/{accountId}/hello":{
+			"get":{
+				"x-api-mgr-params":{
+					"authType":"Application",
+					"throttlingTier":"Unlimited",
+					"visibility": "public"
+				},
+				"parameters":[
+					{
+						"name":"body",
+						"in":"body",
+						"description":"Request Body",
+						"required":"true",
+						"schema":{
+							"type":"string"
+						}
+					}
+					{
+						"name":"accountId",
+						"description":"accountId",
+						"in":"query",
+						"required":"false",
+						"schema":{
+							"type":"string"
+						}
+					}
+				],
+				"responses":{
+					"200" : {
+						"description": "success"
+					},
+					"default":{
+						"description": "?????"
+					}
+				}
+			},
+		},
+		"/{accountId}/account_payment":{
+			"post":{
+				"x-api-mgr-params":{
+					"authType":"Application",
+					"throttlingTier":"Unlimited",
+					"visibility": "public"
+				},
+				"parameters":[
+					{
+						"name":"body",
+						"in":"body",
+						"description":"Request Body",
+						"required":"true",
+						"schema":{
+							"type":"string"
+						}
+					}
+					{
+						"name":"accountId",
+						"description":"accountId",
+						"in":"query",
+						"required":"false",
+						"schema":{
+							"type":"string"
+						}
+					}
+				],
+				"responses":{
+					"200" : {
+						"description": "success"
+					},
+					"default":{
+						"description": "?????"
+					}
+				}
+			},
+		},
+	"/{accountId}/orders_by_id*":{
+			"get":{
+				"x-api-mgr-params":{
+					"authType":"Application",
+					"throttlingTier":"Unlimited",
+					"visibility": "public"
+				},
+				"parameters":[
+					{
+						"name":"body",
+						"in":"body",
+						"description":"Request Body",
+						"required":"true",
+						"schema":{
+							"type":"string"
+						}
+					}
+					{
+						"name":"accountId",
+						"description":"accountId",
+						"in":"query",
+						"required":"false",
+						"schema":{
+							"type":"string"
+						}
+					}
+				],
+				"responses":{
+					"200" : {
+						"description": "success"
+					},
+					"default":{
+						"description": "?????"
+					}
+				}
+			},
+		},
+	"/{accountId}/orders*":{
+			"get":{
+				"x-api-mgr-params":{
+					"authType":"Application",
+					"throttlingTier":"Unlimited",
+					"visibility": "public"
+				},
+				"parameters":[
+					{
+						"name":"body",
+						"in":"body",
+						"description":"Request Body",
+						"required":"true",
+						"schema":{
+							"type":"string"
+						}
+					}
+					{
+						"name":"accountId",
+						"description":"accountId",
+						"in":"query",
+						"required":"false",
+						"schema":{
+							"type":"string"
+						}
+					}
+				],
+				"responses":{
+					"200" : {
+						"description": "success"
+					},
+					"default":{
+						"description": "?????"
+					}
+				}
+			},
+		},
+		"/{accountId}/redemption_calc":{
+			"post":{
+				"x-api-mgr-params":{
+					"authType":"Application",
+					"throttlingTier":"Unlimited",
+					"visibility": "public"
+				},
+				"parameters":[
+					{
+						"name":"body",
+						"in":"body",
+						"description":"Request Body",
+						"required":"true",
+						"schema":{
+							"type":"string"
+						}
+					}
+					{
+						"name":"accountId",
+						"description":"accountId",
+						"in":"query",
+						"required":"false",
+						"schema":{
+							"type":"string"
+						}
+					}
+				],
+				"responses":{
+					"200" : {
+						"description": "success"
+					},
+					"default":{
+						"description": "?????"
+					}
+				}
+			},
+		},
+		"/{accountId}/redemption":{
+			"post":{
+				"x-api-mgr-params":{
+					"authType":"Application",
+					"throttlingTier":"Unlimited",
+					"visibility": "public"
+				},
+				"parameters":[
+					{
+						"name":"body",
+						"in":"body",
+						"description":"Request Body",
+						"required":"true",
+						"schema":{
+							"type":"string"
+						}
+					}
+					{
+						"name":"accountId",
+						"description":"accountId",
+						"in":"query",
+						"required":"false",
+						"schema":{
+							"type":"string"
+						}
+					}
+				],
+				"responses":{
+					"200" : {
+						"description": "success"
+					},
+					"default":{
+						"description": "?????"
+					}
+				}
+			},
+		},
+			"/{accountId}/bonus_bank*":{
+			"get":{
+				"x-api-mgr-params":{
+					"authType":"Application",
+					"throttlingTier":"Unlimited",
+					"visibility": "public"
+				},
+				"parameters":[
+					{
+						"name":"body",
+						"in":"body",
+						"description":"Request Body",
+						"required":"true",
+						"schema":{
+							"type":"string"
+						}
+					}
+					{
+						"name":"accountId",
+						"description":"accountId",
+						"in":"query",
+						"required":"false",
+						"schema":{
+							"type":"string"
+						}
+					}
+				],
+				"responses":{
+					"200" : {
+						"description": "success"
+					},
+					"default":{
+						"description": "?????"
+					}
+				}
+			},
+		},
+		"/{accountId}/pops*":{
+			"get":{
+				"x-api-mgr-params":{
+					"authType":"Application",
+					"throttlingTier":"Unlimited",
+					"visibility": "public"
+				},
+				"parameters":[
+					{
+						"name":"body",
+						"in":"body",
+						"description":"Request Body",
+						"required":"true",
+						"schema":{
+							"type":"string"
+						}
+					}
+					{
+						"name":"accountId",
+						"description":"accountId",
+						"in":"query",
+						"required":"false",
+						"schema":{
+							"type":"string"
+						}
+					}
+				],
+				"responses":{
+					"200" : {
+						"description": "success"
+					},
+					"default":{
+						"description": "?????"
+					}
+				}
+			},
+		},
+	"/{accountId}/accounts_receivable_balance*":{
+			"get":{
+				"x-api-mgr-params":{
+					"authType":"Application",
+					"throttlingTier":"Unlimited",
+					"visibility": "public"
+				},
+				"parameters":[
+					{
+						"name":"body",
+						"in":"body",
+						"description":"Request Body",
+						"required":"true",
+						"schema":{
+							"type":"string"
+						}
+					}
+					{
+						"name":"accountId",
+						"description":"accountId",
+						"in":"query",
+						"required":"false",
+						"schema":{
+							"type":"string"
+						}
+					}
+				],
+				"responses":{
+					"200" : {
+						"description": "success"
+					},
+					"default":{
+						"description": "?????"
+					}
+				}
+			},
+		},
+	"/{accountId}/accounts_receivable*":{
+			"get":{
+				"x-api-mgr-params":{
+					"authType":"Application",
+					"throttlingTier":"Unlimited",
+					"visibility": "public"
+				},
+				"parameters":[
+					{
+						"name":"body",
+						"in":"body",
+						"description":"Request Body",
+						"required":"true",
+						"schema":{
+							"type":"string"
+						}
+					}
+					{
+						"name":"accountId",
+						"description":"accountId",
+						"in":"query",
+						"required":"false",
+						"schema":{
+							"type":"string"
+						}
+					}
+				],
+				"responses":{
+					"200" : {
+						"description": "success"
+					},
+					"default":{
+						"description": "?????"
+					}
+				}
+			},
+		},
+		"/{accountId}/spell_scholastic":{
+			"get":{
+				"x-api-mgr-params":{
+					"authType":"Application",
+					"throttlingTier":"Unlimited",
+					"visibility": "public"
+				},
+				"parameters":[
+					{
+						"name":"body",
+						"in":"body",
+						"description":"Request Body",
+						"required":"true",
+						"schema":{
+							"type":"string"
+						}
+					}
+					{
+						"name":"accountId",
+						"description":"accountId",
+						"in":"query",
+						"required":"false",
+						"schema":{
+							"type":"string"
+						}
+					}
+				],
+				"responses":{
+					"200" : {
+						"description": "success"
+					},
+					"default":{
+						"description": "?????"
+					}
+				}
+			},
+		},
+		"/{accountId}/bonus_bank_balance":{
+			"get":{
+				"x-api-mgr-params":{
+					"authType":"Application",
+					"throttlingTier":"Unlimited",
+					"visibility": "public"
+				},
+				"parameters":[
+					{
+						"name":"body",
+						"in":"body",
+						"description":"Request Body",
+						"required":"true",
+						"schema":{
+							"type":"string"
+						}
+					}
+					{
+						"name":"accountId",
+						"in":"path",
+						"description":"accountId ID",
+						"required":"true",
+						"schema":{
+							"type":"string"
+						}
+					}
+				],
+				"responses":{
+					"200" : {
+						"description": "success"
+					},
+					"default":{
+						"description": "?????"
+					}
+				}
+			}
+		}
+	
+	}
+}
+}

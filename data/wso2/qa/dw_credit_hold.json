@@ -1,0 +1,110 @@
+{
+	"swaggerJson": {
+		"swagger": "2.0",
+		"info": {
+			"title": "qa_dw_credit_hold",
+			"version": "1.0",
+			"description": "qa_dw_credit_hold"
+		},
+		"x-api-mgr-params": {
+			"visibility": "public",
+			"roles": [
+				"sdlc",
+				"aws"
+			],
+			"thumbUrl": "",
+			"endpointType": "testEndpointType",
+			"wsdl": "testWsdl",
+			"tier": "Unlimited",
+			"tiersCollection": [
+				"Unlimited"
+			],
+			"httpChecked": true,
+			"httpsChecked": true,
+			"subscriptions": "testSubscriptions",
+			"tenants": ["testTenants"],
+			"endpoints": {
+				"production": "http://10.15.0.90:9888/dev/app/ca-svcs/school/1.0",
+				"sandbox": ""
+			}
+		},
+		"basePath": "/qa/app/ca-svcs",
+	"paths": {
+	"/{school}/credit_hold*":{
+			"get":{
+				"x-api-mgr-params":{
+					"authType":"Application",
+					"throttlingTier":"Unlimited",
+					"visibility": "public"
+				},
+				"parameters":[
+					{
+						"name":"body",
+						"in":"body",
+						"description":"Request Body",
+						"required":"true",
+						"schema":{
+							"type":"string"
+						}
+					}
+					,{
+						"name":"school",
+						"description":"school",
+						"in":"query",
+						"required":"false",
+						"schema":{
+							"type":"string"
+						}
+					}
+				],
+				"responses":{
+					"200" : {
+						"description": "success"
+					},
+					"default":{
+						"description": "?????"
+					}
+				}
+			}
+		},
+	"/{school}/profile":{
+			"get":{
+				"x-api-mgr-params":{
+					"authType":"Application",
+					"throttlingTier":"Unlimited",
+					"visibility": "public"
+				},
+				"parameters":[
+					{
+						"name":"body",
+						"in":"body",
+						"description":"Request Body",
+						"required":"true",
+						"schema":{
+							"type":"string"
+						}
+					}
+					,{
+						"name":"school",
+						"description":"school",
+						"in":"query",
+						"required":"false",
+						"schema":{
+							"type":"string"
+						}
+					}
+				],
+				"responses":{
+					"200" : {
+						"description": "success"
+					},
+					"default":{
+						"description": "?????"
+					}
+				}
+			}
+		}
+	
+	}
+}
+}

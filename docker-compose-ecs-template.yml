@@ -1,0 +1,13 @@
+app:
+  image: "${IMAGE_NAME}"
+  environment:
+    - SCH_ENV=${SCH_ENV}
+    - SCH_KEY=${SCH_KEY}
+  mem_limit: 1073741824
+  log_driver: awslogs
+  log_opt:
+    awslogs-group: "${cluster_name}"
+    awslogs-region: "us-east-1"
+    awslogs-stream-prefix: "${ARTIFACT_ID}"
+  ports:
+    - "8080"

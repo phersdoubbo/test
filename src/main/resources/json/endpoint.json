@@ -1,0 +1,85 @@
+[
+  {
+    "url": "http://nonprod.api.scholastic.com/qa/app/ca-svcs/1.0/630097/profile",
+    "method": "GET",
+    "md5": "XXXXX",
+    "authorization": "Bearer xhJDTIqr4oTXw50QucKzHVUP9Wka",
+    "inputFile": "",
+    "name": "qa_dw_credit_hold-get-profile",
+    "cookies": "SPS_SESSION=TFK1vUrSUHGfUOpAZpgacA==; SPS_TSP=gYr+YnKDJSroDGIpbhdVAw==;",
+    "enable": "false"
+  },
+  {
+    "url": "http://bpbps.scholastic.com/BPBPSWeb/PaymentHistoryServlet?bcoe=182862656",
+    "method": "GET",
+    "md5": "05b780776e2cab4aea4ad91728ed8e23",
+    "authorization": "SPS_SESSION=TFK1vUrSUHGfUOpAZpgacA==; SPS_TSP=gYr+YnKDJSroDGIpbhdVAw==;",
+    "inputFile": "",
+    "name": "bpp-prod",
+    "cookies": "SPS_SESSION=TFK1vUrSUHGfUOpAZpgacA==; SPS_TSP=gYr+YnKDJSroDGIpbhdVAw==;",
+    "enable": "true"
+  },
+  {
+    "url": "http://ec-e1b-lapp-012.scholastic.net:8080/BPBPSWeb/PaymentHistoryServlet?bcoe=182862656",
+    "method": "GET",
+    "md5": "05b780776e2cab4aea4ad91728ed8e23",
+    "authorization": "SPS_SESSION=TFK1vUrSUHGfUOpAZpgacA==; SPS_TSP=gYr+YnKDJSroDGIpbhdVAw==;",
+    "inputFile": "",
+    "name": "bpp-prod-12",
+    "cookies": "SPS_SESSION=TFK1vUrSUHGfUOpAZpgacA==; SPS_TSP=gYr+YnKDJSroDGIpbhdVAw==;",
+    "enable": "true"
+  },
+  {
+    "url": "http://ec-e1c-lapp-013.scholastic.net:8080/BPBPSWeb/PaymentHistoryServlet?bcoe=182862656",
+    "method": "GET",
+    "md5": "05b780776e2cab4aea4ad91728ed8e23",
+    "authorization": "SPS_SESSION=TFK1vUrSUHGfUOpAZpgacA==; SPS_TSP=gYr+YnKDJSroDGIpbhdVAw==;",
+    "inputFile": "",
+    "name": "bpp-prod-13",
+    "cookies": "SPS_SESSION=TFK1vUrSUHGfUOpAZpgacA==; SPS_TSP=gYr+YnKDJSroDGIpbhdVAw==;",
+    "enable": "true"
+  },
+  {
+    "url": "http://10.36.12.18:8080/BPBPSWeb/PaymentHistoryServlet?bcoe=182862656",
+    "method": "GET",
+    "md5": "05b780776e2cab4aea4ad91728ed8e23",
+    "authorization": "SPS_SESSION=TFK1vUrSUHGfUOpAZpgacA==; SPS_TSP=gYr+YnKDJSroDGIpbhdVAw==;",
+    "inputFile": "",
+    "name": "http://ec-e1b-lapp-052.scholastic.net:8080",
+    "cookies": "SPS_SESSION=TFK1vUrSUHGfUOpAZpgacA==; SPS_TSP=gYr+YnKDJSroDGIpbhdVAw==;",
+    "enable": "true"
+  },
+  {
+    "url": "http://ec-e1c-lapp-053.scholastic.net:8080/BPBPSWeb/PaymentHistoryServlet?bcoe=182862656",
+    "method": "GET",
+    "md5": "05b780776e2cab4aea4ad91728ed8e23",
+    "authorization": "SPS_SESSION=TFK1vUrSUHGfUOpAZpgacA==; SPS_TSP=gYr+YnKDJSroDGIpbhdVAw==;",
+    "inputFile": "",
+    "name": "bpp-prod-53",
+    "cookies": "SPS_SESSION=TFK1vUrSUHGfUOpAZpgacA==; SPS_TSP=gYr+YnKDJSroDGIpbhdVAw==;",
+    "enable": "true"
+  },
+
+  {
+    "url": "http://vertexdev.scholastic.net/vertex-ws/services/CalculateTax60",
+    "method": "POST",
+    "md5": "dd94fb7adb1590fa5221b22c36497e20",
+    "authorization": "SPS_SESSION=TFK1vUrSUHGfUOpAZpgacA==; SPS_TSP=gYr+YnKDJSroDGIpbhdVAw==;",
+    "inputFile": "/xml/vertexperf.xml",
+    "name": "vertex-dev",
+    "cookies": "SPS_SESSION=TFK1vUrSUHGfUOpAZpgacA==; SPS_TSP=gYr+YnKDJSroDGIpbhdVAw==;",
+    "contentType":"text/xml;charset=UTF-8",
+    "enable": "true"
+  },
+  {
+    "url": "http://perf.api.scholastic.com/perf/vertex/1.0/CalculateTax60",
+    "method": "POST",
+    "md5": "XXXXXX",
+    "authorization": "3c14d6cadf6b01bcea290ad0a91e61",
+    "inputFile": "/xml/vertexperfTrusted2.xml",
+    "name": "vertex-perf",
+    "cookies": "SPS_SESSION=TFK1vUrSUHGfUOpAZpgacA==; SPS_TSP=gYr+YnKDJSroDGIpbhdVAw==;",
+    "contentType":"text/xml;charset=UTF-8",
+    "enable": "true"
+  }
+]

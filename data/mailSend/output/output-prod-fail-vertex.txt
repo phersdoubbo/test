@@ -1,0 +1,108 @@
+<?xml version='1.0' encoding='UTF-8'?><S:Envelope xmlns:S="http://schemas.xmlsoap.org/soap/envelope/"><S:Body><VertexEnvelope xmlns="urn:vertexinc:o-series:tps:6:0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><Login><UserName>admin</UserName>
+<Password>vertex</Password>
+</Login>
+<QuotationResponse documentDate="2016-12-09" transactionType="SALE"><Seller />
+<Customer><CustomerCode classCode="2002" />
+<Destination taxAreaId="700190563"><City>RIMOUSKI</City>
+<MainDivision>QC</MainDivision>
+<PostalCode>G5L</PostalCode>
+<Country>CA</Country>
+</Destination>
+</Customer>
+<SubTotal>10.0</SubTotal>
+<Total>11.5</Total>
+<TotalTax>1.5</TotalTax>
+<LineItem lineItemId="8055074" lineItemNumber="1"><Product productClass="">SSO1234567678987</Product>
+<Quantity>1.0</Quantity>
+<Freight>1.0</Freight>
+<FairMarketValue>4.0</FairMarketValue>
+<UnitPrice>4.0</UnitPrice>
+<ExtendedPrice>4.0</ExtendedPrice>
+<Taxes taxResult="TAXABLE" taxType="VAT" rateClassification="Standard Rate" situs="DESTINATION" inputOutputType="OUTPUT" taxCollectedFromParty="BUYER"><Jurisdiction jurisdictionLevel="COUNTRY" jurisdictionId="8">CANADA</Jurisdiction>
+<CalculatedTax>0.2</CalculatedTax>
+<EffectiveRate>0.05</EffectiveRate>
+<Taxable>4.0</Taxable>
+<Imposition impositionType="Goods and Services Tax">GST/HST</Imposition>
+<TaxRuleId>303987</TaxRuleId>
+<InvoiceTextCode>21</InvoiceTextCode>
+</Taxes>
+<Taxes taxResult="TAXABLE" taxType="VAT" rateClassification="Standard Rate" situs="DESTINATION" inputOutputType="OUTPUT" taxCollectedFromParty="BUYER"><Jurisdiction jurisdictionLevel="PROVINCE" jurisdictionId="44906">QUEBEC</Jurisdiction>
+<CalculatedTax>0.4</CalculatedTax>
+<EffectiveRate>0.09975</EffectiveRate>
+<Taxable>4.0</Taxable>
+<Imposition impositionType="VAT">Quebec Sales Tax (VAT)</Imposition>
+<TaxRuleId>455833</TaxRuleId>
+<InvoiceTextCode>21</InvoiceTextCode>
+</Taxes>
+<TotalTax>0.75</TotalTax>
+<LineItem lineItemId="Vertex freight sub line item identifier" lineItemNumber="1"><Product productClass="">SSO1234567678987</Product>
+<Quantity>1.0</Quantity>
+<FairMarketValue>1.0</FairMarketValue>
+<ExtendedPrice>1.0</ExtendedPrice>
+<Taxes taxResult="TAXABLE" taxType="VAT" situs="DESTINATION" inputOutputType="OUTPUT" taxCollectedFromParty="BUYER"><Jurisdiction jurisdictionLevel="COUNTRY" jurisdictionId="8">CANADA</Jurisdiction>
+<CalculatedTax>0.05</CalculatedTax>
+<EffectiveRate>0.05</EffectiveRate>
+<Taxable>1.0</Taxable>
+<Imposition impositionType="Goods and Services Tax">GST/HST</Imposition>
+<TaxRuleId>485294</TaxRuleId>
+<InvoiceTextCode>21</InvoiceTextCode>
+</Taxes>
+<Taxes taxResult="TAXABLE" taxType="VAT" situs="DESTINATION" inputOutputType="OUTPUT" taxCollectedFromParty="BUYER"><Jurisdiction jurisdictionLevel="PROVINCE" jurisdictionId="44906">QUEBEC</Jurisdiction>
+<CalculatedTax>0.1</CalculatedTax>
+<EffectiveRate>0.09975</EffectiveRate>
+<Taxable>1.0</Taxable>
+<Imposition impositionType="VAT">Quebec Sales Tax (VAT)</Imposition>
+<TaxRuleId>1095627</TaxRuleId>
+<InvoiceTextCode>21</InvoiceTextCode>
+</Taxes>
+<TotalTax>0.15</TotalTax>
+</LineItem>
+</LineItem>
+<LineItem lineItemId="8055074" lineItemNumber="2"><Product productClass="">SSO1234567678987</Product>
+<Quantity>1.0</Quantity>
+<Freight>1.0</Freight>
+<FairMarketValue>4.0</FairMarketValue>
+<UnitPrice>4.0</UnitPrice>
+<ExtendedPrice>4.0</ExtendedPrice>
+<Taxes taxResult="TAXABLE" taxType="VAT" rateClassification="Standard Rate" situs="DESTINATION" inputOutputType="OUTPUT" taxCollectedFromParty="BUYER"><Jurisdiction jurisdictionLevel="COUNTRY" jurisdictionId="8">CANADA</Jurisdiction>
+<CalculatedTax>0.2</CalculatedTax>
+<EffectiveRate>0.05</EffectiveRate>
+<Taxable>4.0</Taxable>
+<Imposition impositionType="Goods and Services Tax">GST/HST</Imposition>
+<TaxRuleId>303987</TaxRuleId>
+<InvoiceTextCode>21</InvoiceTextCode>
+</Taxes>
+<Taxes taxResult="TAXABLE" taxType="VAT" rateClassification="Standard Rate" situs="DESTINATION" inputOutputType="OUTPUT" taxCollectedFromParty="BUYER"><Jurisdiction jurisdictionLevel="PROVINCE" jurisdictionId="44906">QUEBEC</Jurisdiction>
+<CalculatedTax>0.4</CalculatedTax>
+<EffectiveRate>0.09975</EffectiveRate>
+<Taxable>4.0</Taxable>
+<Imposition impositionType="VAT">Quebec Sales Tax (VAT)</Imposition>
+<TaxRuleId>455833</TaxRuleId>
+<InvoiceTextCode>21</InvoiceTextCode>
+</Taxes>
+<TotalTax>0.75</TotalTax>
+<LineItem lineItemId="Vertex freight sub line item identifier" lineItemNumber="2"><Product productClass="">SSO1234567678987</Product>
+<Quantity>1.0</Quantity>
+<FairMarketValue>1.0</FairMarketValue>
+<ExtendedPrice>1.0</ExtendedPrice>
+<Taxes taxResult="TAXABLE" taxType="VAT" situs="DESTINATION" inputOutputType="OUTPUT" taxCollectedFromParty="BUYER"><Jurisdiction jurisdictionLevel="COUNTRY" jurisdictionId="8">CANADA</Jurisdiction>
+<CalculatedTax>0.05</CalculatedTax>
+<EffectiveRate>0.05</EffectiveRate>
+<Taxable>1.0</Taxable>
+<Imposition impositionType="Goods and Services Tax">GST/HST</Imposition>
+<TaxRuleId>485294</TaxRuleId>
+<InvoiceTextCode>21</InvoiceTextCode>
+</Taxes>
+<Taxes taxResult="TAXABLE" taxType="VAT" situs="DESTINATION" inputOutputType="OUTPUT" taxCollectedFromParty="BUYER"><Jurisdiction jurisdictionLevel="PROVINCE" jurisdictionId="44906">QUEBEC</Jurisdiction>
+<CalculatedTax>0.1</CalculatedTax>
+<EffectiveRate>0.09975</EffectiveRate>
+<Taxable>1.0</Taxable>
+<Imposition impositionType="VAT">Quebec Sales Tax (VAT)</Imposition>
+<TaxRuleId>1095627</TaxRuleId>
+<InvoiceTextCode>21</InvoiceTextCode>
+</Taxes>
+<TotalTax>0.15</TotalTax>
+</LineItem>
+</LineItem>
+</QuotationResponse>
+</VertexEnvelope></S:Body></S:Envelope>

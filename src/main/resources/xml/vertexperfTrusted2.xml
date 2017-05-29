@@ -1,0 +1,9 @@
+<soapenv:Envelope xmlns:soapenv='http://schemas.xmlsoap.org/soap/envelope/' xmlns:urn='urn:vertexinc:o-series:tps:6:0'>
+<soapenv:Header/> <soapenv:Body>
+<VertexEnvelope xmlns='urn:vertexinc:o-series:tps:6:0' xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance'>
+	<Login>
+	<UserName>sysadmin</UserName>		<Password>vertex</Password>	
+		
+	</Login>
+<QuotationRequest transactionType='SALE' documentDate='2016-12-09'><Currency>
+</Currency><Seller>    	<Company></Company>    	<Division></Division>  	</Seller><Customer>		<CustomerCode classCode='2002'/>		<Destination><StreetAddress1></StreetAddress1>			<StreetAddress2></StreetAddress2><City>San Diego</City>			<MainDivision>CA</MainDivision>			<SubDivision></SubDivision><PostalCode>92106</PostalCode>			<Country>USA</Country>		</Destination>	</Customer>			<LineItem isMulticomponent='false' lineItemId='8055074' lineItemNumber='1'><Product productClass=''>SSO1234567678987</Product><Quantity>1</Quantity><Freight>1</Freight>		<UnitPrice>4</UnitPrice><ExtendedPrice>4</ExtendedPrice>		</LineItem>	<LineItem isMulticomponent='false' lineItemId='8055074' lineItemNumber='2'>		<Product productClass=''>SSO1234567678987</Product><Quantity>1</Quantity>		<Freight>1</Freight>		<UnitPrice>4</UnitPrice>		<ExtendedPrice>4</ExtendedPrice></LineItem>	</QuotationRequest></VertexEnvelope>   </soapenv:Body></soapenv:Envelope>

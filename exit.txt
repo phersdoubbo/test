@@ -1,0 +1,67 @@
+[INFO] Scanning for projects...
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building catalogUpload 0.0.30-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.6.1:clean (default-clean) @ catalogUpload2 ---
+[INFO] Deleting C:\Users\Fernaull\workspace\neon\POSTBACK\oosv2\target
+[INFO] 
+[INFO] --- jacoco-maven-plugin:0.7.7.201606060606:prepare-agent (default-prepare-agent) @ catalogUpload2 ---
+[INFO] argLine set to -javaagent:C:\\Users\\Fernaull\\.m2\\repository\\org\\jacoco\\org.jacoco.agent\\0.7.7.201606060606\\org.jacoco.agent-0.7.7.201606060606-runtime.jar=destfile=C:\\Users\\Fernaull\\workspace\\neon\\POSTBACK\\oosv2\\target\\jacoco.exec
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ catalogUpload2 ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 2 resources
+[INFO] Copying 5 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ catalogUpload2 ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 176 source files to C:\Users\Fernaull\workspace\neon\POSTBACK\oosv2\target\classes
+[WARNING] /C:/Users/Fernaull/workspace/neon/POSTBACK/oosv2/src/main/java/com/scholastic/util/UtilOOS.java: Some input files use or override a deprecated API.
+[WARNING] /C:/Users/Fernaull/workspace/neon/POSTBACK/oosv2/src/main/java/com/scholastic/util/UtilOOS.java: Recompile with -Xlint:deprecation for details.
+[WARNING] /C:/Users/Fernaull/workspace/neon/POSTBACK/oosv2/src/main/java/com/scholastic/AS400Detail/service/PcoolDetailServiceLocator.java: Some input files use unchecked or unsafe operations.
+[WARNING] /C:/Users/Fernaull/workspace/neon/POSTBACK/oosv2/src/main/java/com/scholastic/AS400Detail/service/PcoolDetailServiceLocator.java: Recompile with -Xlint:unchecked for details.
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ catalogUpload2 ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 0 resource
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ catalogUpload2 ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 1 source file to C:\Users\Fernaull\workspace\neon\POSTBACK\oosv2\target\test-classes
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.19.1:test (default-test) @ catalogUpload2 ---
+[INFO] 
+[INFO] --- maven-jar-plugin:2.6:jar (default-jar) @ catalogUpload2 ---
+[INFO] Building jar: C:\Users\Fernaull\workspace\neon\POSTBACK\oosv2\target\catalogUpload2-0.0.30-SNAPSHOT.jar
+[INFO] 
+[INFO] --- spring-boot-maven-plugin:1.4.1.RELEASE:repackage (default) @ catalogUpload2 ---
+[INFO] 
+[INFO] --- jacoco-maven-plugin:0.7.7.201606060606:prepare-agent-integration (default-prepare-agent-integration) @ catalogUpload2 ---
+[INFO] argLine set to -javaagent:C:\\Users\\Fernaull\\.m2\\repository\\org\\jacoco\\org.jacoco.agent\\0.7.7.201606060606\\org.jacoco.agent-0.7.7.201606060606-runtime.jar=destfile=C:\\Users\\Fernaull\\workspace\\neon\\POSTBACK\\oosv2\\target\\jacoco-it.exec
+[INFO] 
+[INFO] --- maven-failsafe-plugin:2.18.1:integration-test (default) @ catalogUpload2 ---
+[INFO] 
+[INFO] --- maven-failsafe-plugin:2.18.1:verify (default) @ catalogUpload2 ---
+[INFO] Failsafe report directory: C:\Users\Fernaull\workspace\neon\POSTBACK\oosv2\target\failsafe-reports
+[INFO] 
+[INFO] --- jacoco-maven-plugin:0.7.7.201606060606:report (default-report) @ catalogUpload2 ---
+[INFO] Skipping JaCoCo execution due to missing execution data file.
+[INFO] 
+[INFO] --- jacoco-maven-plugin:0.7.7.201606060606:report-integration (default-report-integration) @ catalogUpload2 ---
+[INFO] Skipping JaCoCo execution due to missing execution data file.
+[INFO] 
+[INFO] --- jacoco-maven-plugin:0.7.7.201606060606:check (default-check) @ catalogUpload2 ---
+[INFO] Skipping JaCoCo execution due to missing execution data file:C:\Users\Fernaull\workspace\neon\POSTBACK\oosv2\target\jacoco.exec
+[INFO] 
+[INFO] --- maven-install-plugin:2.5.2:install (default-install) @ catalogUpload2 ---
+[INFO] Installing C:\Users\Fernaull\workspace\neon\POSTBACK\oosv2\target\catalogUpload2-0.0.30-SNAPSHOT.jar to C:\Users\Fernaull\.m2\repository\com\scholastic\dw\catalogUpload2\0.0.30-SNAPSHOT\catalogUpload2-0.0.30-SNAPSHOT.jar
+[INFO] Installing C:\Users\Fernaull\workspace\neon\POSTBACK\oosv2\pom.xml to C:\Users\Fernaull\.m2\repository\com\scholastic\dw\catalogUpload2\0.0.30-SNAPSHOT\catalogUpload2-0.0.30-SNAPSHOT.pom
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 21.286s
+[INFO] Finished at: Mon May 08 11:59:08 EDT 2017
+[INFO] Final Memory: 63M/423M
+[INFO] ------------------------------------------------------------------------

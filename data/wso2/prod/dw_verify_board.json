@@ -1,0 +1,77 @@
+{
+	"swaggerJson": {
+		"swagger": "2.0",
+		"info": {
+			"title": "dw_verify_board",
+			"version": "1.0",
+			"description": "dw_verify_board"
+		},
+		"x-api-mgr-params": {
+			"visibility": "public",
+			"roles": [
+				"sdlc",
+				"aws"
+			],
+			"thumbUrl": "",
+			"endpointType": "testEndpointType",
+			"wsdl": "testWsdl",
+			"tier": "Unlimited",
+			"tiersCollection": [
+				"Unlimited"
+			],
+			"httpChecked": true,
+			"httpsChecked": true,
+			"subscriptions": "testSubscriptions",
+			"tenants": ["testTenants"],
+			"endpoints": {
+				"production": "http://schcaco1.canada.scholasticinc.local:8890/dev/app/ca-svcs/school/1.0",
+				"sandbox": ""
+			}
+		},
+		"basePath": "/prod2/app/ca-svcs/school",
+	
+			
+	
+	"paths": {
+	
+		"/{schoolId}/verify_board*":{
+			"get":{
+				"x-api-mgr-params":{
+					"authType":"Application User",
+					"throttlingTier":"Unlimited",
+					"visibility": "public"
+				},
+				"parameters":[
+					{
+						"name":"body",
+						"in":"body",
+						"description":"Request Body",
+						"required":"true",
+						"schema":{
+							"type":"string"
+						}
+					}
+					{
+						"name":"schoolId",
+						"in":"path",
+						"description":"schoolId's ID",
+						"required":"true",
+						"schema":{
+							"type":"string"
+						}
+					}
+				],
+				"responses":{
+					"200" : {
+						"description": "success"
+					},
+					"default":{
+						"description": "?????"
+					}
+				}
+			}
+		}
+	
+	}
+}
+}

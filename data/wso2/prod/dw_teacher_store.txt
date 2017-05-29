@@ -1,0 +1,5 @@
+
+dw_teacher_store
+
+curl -v -X GET -H "Accept: */*" "http://aso-prd.apps.osp1.scholastic.tech/OOSv2/digital" --cookie "SPS_SESSION_SECURE=Jcxyx7G9X+hjepW7iD2wHA==;SPS_SESSION=QKOV585azWCfUOpAZpgacA==;SPS_TSP_SECURE=5kcUPo0LYOE7ufKsgHel3A==;SPS_TSP=XFSOAjCSoIwA+LR1WaSX7Q==;"
+curl -v -X GET -H "Accept: */*" "https://api.scholastic.com/prod/teacher/store/1.0/digital" --cookie "SPS_SESSION_SECURE=Jcxyx7G9X+hjepW7iD2wHA==;SPS_SESSION=QKOV585azWCfUOpAZpgacA==;SPS_TSP_SECURE=5kcUPo0LYOE7ufKsgHel3A==;SPS_TSP=XFSOAjCSoIwA+LR1WaSX7Q==;"

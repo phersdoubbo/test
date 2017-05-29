@@ -1,0 +1,15 @@
+version=ferprod
+SPS DB ...jdbc:mysql://sch-mysp004.cnquw6bklb67.us-east-1.rds.amazonaws.com:3306/cs001
+SPS AS400 ...schjc400.scholastic.net
+SPS INSERT_ON_TABLE...true
+SPS PCML...PROD
+SPS IS_DEFAULT_EMAIL...true
+SPS PATH...Z:/Downloads/
+SPS PATH_SOURCE.../C:/Users/Fernaull/FVU/ScriptsTest/bin2/./
+as400Url:== jdbc:as400://schjc400.scholastic.net
+Do you have 7000 seconds to validate the environment
+Do you have 7000 seconds to cancel, before I Insert
+Location  ::: /C:/Users/Fernaull/FVU/ScriptsTest/bin2/./
+Total Records Succeded  ::: 0
+Total Records with no bcoe  ::: 0
+Total Records Failed ::: 0

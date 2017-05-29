@@ -1,0 +1,39 @@
+FROM alpine:3.4
+MAINTAINER Francis Lim, flim-consultant@scholastic.com
+
+ENV LANG C.UTF-8
+RUN { \
+		echo '#!/bin/sh'; \
+		echo 'set -e'; \
+		echo; \
+		echo 'dirname "$(dirname "$(readlink -f "$(which javac || which java)")")"'; \
+	} > /usr/local/bin/docker-java-home \
+	&& chmod +x /usr/local/bin/docker-java-home
+ENV JAVA_HOME /usr/lib/jvm/java-1.8-openjdk
+ENV JRE_HOME /usr/lib/jvm/java-1.8-openjdk/jre
+ENV PATH $PATH:/usr/lib/jvm/java-1.8-openjdk/jre/bin:/usr/lib/jvm/java-1.8-openjdk/bin
+
+ENV JAVA_VERSION 8u111
+ENV JAVA_ALPINE_VERSION 8.111.14-r0
+
+RUN set -x \
+	&& apk add --no-cache \
+		openjdk8="$JAVA_ALPINE_VERSION" \
+	&& [ "$JAVA_HOME" = "$(docker-java-home)" ]
+
+# install maven
+RUN mkdir -p /opt
+RUN wget -O /opt/apache-maven-3.3.9-bin.tar.gz http://www-eu.apache.org/dist/maven/maven-3/3.3.9/binaries/apache-maven-3.3.9-bin.tar.gz
+RUN tar -xzvf /opt/apache-maven-3.3.9-bin.tar.gz -C /opt
+ENV PATH $PATH:/opt/apache-maven-3.3.9/bin
+ENV SCH_ENV ${SCH_ENV}
+ENV SCH_KEY ${SCH_KEY}
+
+# set application volue
+VOLUME /opt/app
+
+# set application directory as working directory
+WORKDIR /opt/app
+
+# Define entrypoint
+ENTRYPOINT ["mvn", "spring-boot:run"]
